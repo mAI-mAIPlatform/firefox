@@ -4,7 +4,10 @@ on:
   pull_request:
   push:
     branches:
-      - enterprise-main
+      - main
+      - master
+      - dev
+      - '*'
 
 jobs:
   package-tests:
